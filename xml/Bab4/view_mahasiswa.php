@@ -5,7 +5,7 @@
 <body>
   <?php
     // include "koneksi.php"
-  $url = 'http://localhost/dev/ws/xml/bab-4/mhs.php';
+  $url = 'http://localhost/ws.git/xml/bab4/mhs.php';
 
   // Menambil data string dari resources
   $client = curl_init($url);
