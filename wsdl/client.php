@@ -5,8 +5,7 @@
 	//panggil library
 	require_once('nusoap/lib/nusoap.php');
 	//mendefinisikan alamat url serveice yang disediakan oleh client
-	$client = new
-	soapclient('http://localhost/login/sever.php?wsdl',true);
+	$client = newsoapclient('http://localhost/login/server.php?wsdl',true);
 	$username = $_POST["username"];
 	$password = $_POST["password"];
 	$result = $client->call('login_ws',
