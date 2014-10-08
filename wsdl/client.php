@@ -1,6 +1,5 @@
 <?php 
-	//memulai
-	session
+	//memulai session
 	session_start(
 	);
 	//panggil library
